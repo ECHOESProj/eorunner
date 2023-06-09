@@ -1,0 +1,10 @@
+{
+  "files.exclude": {
+    "**.sln": true,
+    "**.vspscc": true,
+    "**.vssscc": true
+  },
+  "search.exclude": {
+    ".venv": true
+  }
+}
