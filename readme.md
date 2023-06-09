@@ -41,10 +41,12 @@ A file called `overrides.env` can be added to the config folder and can contain 
 `.\tasks\run.ps1 eom --env=dev`
 
 The above processes accept start and end date, module(s) and backdate option. If backdate is true, then start and end dates are taken from instrument config, e.g.
-`.\tasks\run.ps1 eom --env=dev --start=2019-05-01 --end=2019-06-01`
-`.\tasks\run.ps1 eom --env=dev --start=2019-05-01 --end=2019-06-01 --module=true_color`
-`.\tasks\run.ps1 eom --env=dev --backdate --module=true_color --module=ndvi`
 
+```bash
+.\tasks\run.ps1 eom --env=dev --start=2019-05-01 --end=2019-06-01
+.\tasks\run.ps1 eom --env=dev --start=2019-05-01 --end=2019-06-01 --module=true_color
+.\tasks\run.ps1 eom --env=dev --backdate --module=true_color --module=ndvi
+```
 <br>
 
 ## Run in virtual environment
