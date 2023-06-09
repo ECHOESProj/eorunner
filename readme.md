@@ -66,6 +66,8 @@ The EO processes are divided into two groups and are run in parallel using `task
 
 For the `batch2` task, replace `batch1.ps1` with `batch2.ps1`
 
+`tasks/batch1.ps1` and `tasks/batch2.ps1` can be adapted for a unix system and task run with Cron.
+
 <br>
 
 ## Older modules
