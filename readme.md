@@ -41,6 +41,8 @@ A file called `overrides.env` can be added to the config folder and can contain 
 Before running the application, ensure that relevant credentials and endpoints are set in `base.env` or `dev/qa/production.env` in the `app/config` folder.
 Values can also be set in `overrides.env` for local testing.
 
+<br>
+
 ## Run with powershell
 `.\tasks\run.ps1 eom --env=dev`
 
